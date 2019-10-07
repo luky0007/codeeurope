@@ -1,0 +1,45 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ING MEETUP</title>
+<script>
+ 
+  function printHelloWorld() {
+      window.webkit.messageHandlers.test.postMessage("Hello, world!");
+  }
+  function shareIt(address) {
+      window.webkit.messageHandlers.share.postMessage(address);
+  }
+  function openContacts(address) {
+      window.webkit.messageHandlers.openContacts.postMessage("");
+  }
+  function evalFunc(somedata){
+      //I know: check is string value
+      document.getElementById("evalinput").value = somedata;
+  }
+  function login() {
+        window.webkit.messageHandlers.login.postMessage("");
+  }
+  window.onload = login;
+</script>
+</head>
+<body>
+
+    <form action="action_page.php" method="post">
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+       <br/>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+      </div>
+    </form>
+    <br/>
+    <input type="text" name="name" id="evalinput" />
+</body>
+</html>
+
+

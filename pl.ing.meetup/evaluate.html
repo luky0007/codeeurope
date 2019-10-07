@@ -1,0 +1,37 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ING MEETUP</title>
+<script>
+ 
+  function printHelloWorld() {
+      window.webkit.messageHandlers.test.postMessage("Hello, world!");
+  }
+  function shareIt(address) {
+      window.webkit.messageHandlers.share.postMessage(address);
+  }
+  function openContacts(address) {
+      window.webkit.messageHandlers.openContacts.postMessage("");
+  }
+  window.onload = printHelloWorld;
+ 
+  function evalFunc(somedata){
+      //I know: check is string value
+       document.getElementById("evalinput").value = somedata;
+  }
+
+
+</script>
+</head>
+<body>
+    <button type="submit" id="superbutton" onClick="shareIt('https://www.ing.pl')">Share me</button>
+    <br/>
+  <button type="submit" id="superbutton2" onClick="openContacts()">Open Contacts List</button>
+<br/>
+   <input type="text" name="name" id="evalinput" />
+</body>
+</html>
+
+
+

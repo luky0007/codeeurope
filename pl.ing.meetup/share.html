@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ING MEETUP</title>
+<script>
+  
+  function shareIt(address) {
+      window.webkit.messageHandlers.share.postMessage(address);
+  }
+ 
+</script>
+</head>
+<body>
+    <button type="submit" id="superbutton" onClick="shareIt('https://www.ing.pl')">Share me</button>
+</body>
+</html>
