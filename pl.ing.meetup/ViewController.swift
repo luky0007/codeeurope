@@ -19,7 +19,7 @@ class ViewController: UIViewController {
          let config = WKWebViewConfiguration()
         let userContentController = WKUserContentController()
         userContentController.add(self, name: "test")
-        userContentController.add(self, name: "share2")
+        userContentController.add(self, name: "share")
         userContentController.add(self, name: "openContacts")
         userContentController.add(self, name: "login")
         
@@ -56,7 +56,7 @@ extension ViewController: WKScriptMessageHandler, CNContactPickerDelegate {
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "test", let test = message.body as? String {
             print(test)
-            authenticateUser()
+            //authenticateUser()
         }
         if message.name == "share", let address = message.body as? String {
             print(address)
