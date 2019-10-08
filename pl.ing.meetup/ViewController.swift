@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         config.userContentController = userContentController
         
         self.webView = WKWebView(frame: self.view.bounds, configuration: config)
-        //let testurl = "https://123e68c1-ea57-44a3-b993-16182ca30849.htmlpasta.com/"
-        let testurl = "https://http.cat"
+        let testurl = "https://fc2b1fc6-9605-42c2-a8bb-0727eccf0e63.htmlpasta.com/"
+        //let testurl = "https://http.cat"
         if let url = URL(string: testurl){
             self.webView.load(URLRequest(url: url))
         }
