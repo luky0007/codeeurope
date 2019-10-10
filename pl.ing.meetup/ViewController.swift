@@ -111,7 +111,7 @@ extension ViewController: WKScriptMessageHandler, CNContactPickerDelegate {
                 DispatchQueue.main.async {
                     if success {
                         print("evaluate javascript ... :)")
-                        let str = String(format: "evalFunc('%@')", "LOGIN_OK")
+                        let str = String(format: "evalFunc('%@')", "TOUCH_ID_OK") //user it's not auth, it's only sample of use
                         self.evaluateJavascript(str)
                     } else {
                         let ac = UIAlertController(title: "Authentication failed", message: "Sorry!", preferredStyle: .alert)
