@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:pl.ing.meetup.xcodeproj">
+      location = "self:/Users/yj58oe/repos/ingmeetup/pl.ing.codeeurope.xcodeproj">
    </FileRef>
 </Workspace>

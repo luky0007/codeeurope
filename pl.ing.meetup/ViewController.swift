@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  pl.ing.meetup
 //
-//  Created by Łukasz Beksa on 04/10/2019.
-//  Copyright © 2019 Łukasz Beksa. All rights reserved.
+//  Created by Łukasz Beksa on 04/10/2022.
+//  Copyright © 2022 Łukasz Beksa. All rights reserved.
 //
 
 import UIKit

@@ -20,7 +20,6 @@
 		B2AFF98523490F1F005D2DA1 /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98423490F1F005D2DA1 /* share.html */; };
 		B2AFF98B23491616005D2DA1 /* contacts.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98A23491616005D2DA1 /* contacts.html */; };
 		B2AFF98F23492101005D2DA1 /* evaluate.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98E23492101005D2DA1 /* evaluate.html */; };
-		B2AFF991234B3FF1005D2DA1 /* empty in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF990234B3FF1005D2DA1 /* empty */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B25C7D8A23476AE20066A56C /* pl.ing.meetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pl.ing.meetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C7D8A23476AE20066A56C /* pl.ing.codeeurope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pl.ing.codeeurope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25C7D8D23476AE20066A56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25C7D8F23476AE20066A56C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B25C7D9123476AE20066A56C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +41,7 @@
 		B25C7D9623476AE80066A56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25C7D9923476AE80066A56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25C7D9B23476AE80066A56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B25C7DA023476AE80066A56C /* pl.ing.meetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pl.ing.meetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C7DA023476AE80066A56C /* pl.ing.codeeuropeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pl.ing.codeeuropeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25C7DA423476AE80066A56C /* pl_ing_meetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pl_ing_meetupTests.swift; sourceTree = "<group>"; };
 		B25C7DA623476AE80066A56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AFF97E23478AA8005D2DA1 /* testjavascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = testjavascript.js; sourceTree = "<group>"; };
@@ -51,7 +50,6 @@
 		B2AFF98423490F1F005D2DA1 /* share.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
 		B2AFF98A23491616005D2DA1 /* contacts.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contacts.html; sourceTree = "<group>"; };
 		B2AFF98E23492101005D2DA1 /* evaluate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = evaluate.html; sourceTree = "<group>"; };
-		B2AFF990234B3FF1005D2DA1 /* empty */ = {isa = PBXFileReference; lastKnownFileType = text; path = empty; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +82,8 @@
 		B25C7D8B23476AE20066A56C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B25C7D8A23476AE20066A56C /* pl.ing.meetup.app */,
-				B25C7DA023476AE80066A56C /* pl.ing.meetupTests.xctest */,
+				B25C7D8A23476AE20066A56C /* pl.ing.codeeurope.app */,
+				B25C7DA023476AE80066A56C /* pl.ing.codeeuropeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +104,6 @@
 				B25C7D9B23476AE80066A56C /* Info.plist */,
 				B2AFF98A23491616005D2DA1 /* contacts.html */,
 				B2AFF98E23492101005D2DA1 /* evaluate.html */,
-				B2AFF990234B3FF1005D2DA1 /* empty */,
 			);
 			path = pl.ing.meetup;
 			sourceTree = "<group>";
@@ -123,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B25C7D8923476AE20066A56C /* pl.ing.meetup */ = {
+		B25C7D8923476AE20066A56C /* pl.ing.codeeurope */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B25C7DA923476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.meetup" */;
+			buildConfigurationList = B25C7DA923476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.codeeurope" */;
 			buildPhases = (
 				B25C7D8623476AE20066A56C /* Sources */,
 				B25C7D8723476AE20066A56C /* Frameworks */,
@@ -135,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = pl.ing.meetup;
+			name = pl.ing.codeeurope;
 			productName = pl.ing.meetup;
-			productReference = B25C7D8A23476AE20066A56C /* pl.ing.meetup.app */;
+			productReference = B25C7D8A23476AE20066A56C /* pl.ing.codeeurope.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B25C7D9F23476AE80066A56C /* pl.ing.meetupTests */ = {
+		B25C7D9F23476AE80066A56C /* pl.ing.codeeuropeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B25C7DAC23476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.meetupTests" */;
+			buildConfigurationList = B25C7DAC23476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.codeeuropeTests" */;
 			buildPhases = (
 				B25C7D9C23476AE80066A56C /* Sources */,
 				B25C7D9D23476AE80066A56C /* Frameworks */,
@@ -153,9 +150,9 @@
 			dependencies = (
 				B25C7DA223476AE80066A56C /* PBXTargetDependency */,
 			);
-			name = pl.ing.meetupTests;
+			name = pl.ing.codeeuropeTests;
 			productName = pl.ing.meetupTests;
-			productReference = B25C7DA023476AE80066A56C /* pl.ing.meetupTests.xctest */;
+			productReference = B25C7DA023476AE80066A56C /* pl.ing.codeeuropeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B25C7D8523476AE20066A56C /* Build configuration list for PBXProject "pl.ing.meetup" */;
+			buildConfigurationList = B25C7D8523476AE20066A56C /* Build configuration list for PBXProject "pl.ing.codeeurope" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B25C7D8923476AE20066A56C /* pl.ing.meetup */,
-				B25C7D9F23476AE80066A56C /* pl.ing.meetupTests */,
+				B25C7D8923476AE20066A56C /* pl.ing.codeeurope */,
+				B25C7D9F23476AE80066A56C /* pl.ing.codeeuropeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +200,6 @@
 			files = (
 				B25C7D9A23476AE80066A56C /* LaunchScreen.storyboard in Resources */,
 				B2AFF97F23478AA8005D2DA1 /* testjavascript.js in Resources */,
-				B2AFF991234B3FF1005D2DA1 /* empty in Resources */,
 				B25C7D9723476AE80066A56C /* Assets.xcassets in Resources */,
 				B2AFF981234906E8005D2DA1 /* test.html in Resources */,
 				B2AFF983234907B6005D2DA1 /* loginForm.html in Resources */,
@@ -247,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		B25C7DA223476AE80066A56C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B25C7D8923476AE20066A56C /* pl.ing.meetup */;
+			target = B25C7D8923476AE20066A56C /* pl.ing.codeeurope */;
 			targetProxy = B25C7DA123476AE80066A56C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pl.ing.meetup.app/pl.ing.meetup";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pl.ing.codeeurope.app/pl.ing.codeeurope";
 			};
 			name = Debug;
 		};
@@ -462,14 +458,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pl.ing.meetup.app/pl.ing.meetup";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pl.ing.codeeurope.app/pl.ing.codeeurope";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B25C7D8523476AE20066A56C /* Build configuration list for PBXProject "pl.ing.meetup" */ = {
+		B25C7D8523476AE20066A56C /* Build configuration list for PBXProject "pl.ing.codeeurope" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B25C7DA723476AE80066A56C /* Debug */,
@@ -478,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B25C7DA923476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.meetup" */ = {
+		B25C7DA923476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.codeeurope" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B25C7DAA23476AE80066A56C /* Debug */,
@@ -487,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B25C7DAC23476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.meetupTests" */ = {
+		B25C7DAC23476AE80066A56C /* Build configuration list for PBXNativeTarget "pl.ing.codeeuropeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B25C7DAD23476AE80066A56C /* Debug */,
