@@ -13,7 +13,7 @@
 		B25C7D9523476AE20066A56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25C7D9323476AE20066A56C /* Main.storyboard */; };
 		B25C7D9723476AE80066A56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25C7D9623476AE80066A56C /* Assets.xcassets */; };
 		B25C7D9A23476AE80066A56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25C7D9823476AE80066A56C /* LaunchScreen.storyboard */; };
-		B25C7DA523476AE80066A56C /* pl_ing_meetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C7DA423476AE80066A56C /* pl_ing_meetupTests.swift */; };
+		B25C7DA523476AE80066A56C /* pl_ing_codeeuropeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C7DA423476AE80066A56C /* pl_ing_codeeuropeTests.swift */; };
 		B2AFF97F23478AA8005D2DA1 /* testjavascript.js in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF97E23478AA8005D2DA1 /* testjavascript.js */; };
 		B2AFF981234906E8005D2DA1 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF980234906E8005D2DA1 /* test.html */; };
 		B2AFF983234907B6005D2DA1 /* loginForm.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF982234907B6005D2DA1 /* loginForm.html */; };
@@ -42,7 +42,7 @@
 		B25C7D9923476AE80066A56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25C7D9B23476AE80066A56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B25C7DA023476AE80066A56C /* pl.ing.codeeuropeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pl.ing.codeeuropeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B25C7DA423476AE80066A56C /* pl_ing_meetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pl_ing_meetupTests.swift; sourceTree = "<group>"; };
+		B25C7DA423476AE80066A56C /* pl_ing_codeeuropeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pl_ing_codeeuropeTests.swift; sourceTree = "<group>"; };
 		B25C7DA623476AE80066A56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AFF97E23478AA8005D2DA1 /* testjavascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = testjavascript.js; sourceTree = "<group>"; };
 		B2AFF980234906E8005D2DA1 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 		B25C7D8123476AE20066A56C = {
 			isa = PBXGroup;
 			children = (
-				B25C7D8C23476AE20066A56C /* pl.ing.meetup */,
-				B25C7DA323476AE80066A56C /* pl.ing.meetupTests */,
+				B25C7D8C23476AE20066A56C /* pl.ing.codeeurope */,
+				B25C7DA323476AE80066A56C /* pl.ing.codeeuropeTests */,
 				B25C7D8B23476AE20066A56C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B25C7D8C23476AE20066A56C /* pl.ing.meetup */ = {
+		B25C7D8C23476AE20066A56C /* pl.ing.codeeurope */ = {
 			isa = PBXGroup;
 			children = (
 				B25C7D8D23476AE20066A56C /* AppDelegate.swift */,
@@ -105,16 +105,16 @@
 				B2AFF98A23491616005D2DA1 /* contacts.html */,
 				B2AFF98E23492101005D2DA1 /* evaluate.html */,
 			);
-			path = pl.ing.meetup;
+			path = pl.ing.codeeurope;
 			sourceTree = "<group>";
 		};
-		B25C7DA323476AE80066A56C /* pl.ing.meetupTests */ = {
+		B25C7DA323476AE80066A56C /* pl.ing.codeeuropeTests */ = {
 			isa = PBXGroup;
 			children = (
-				B25C7DA423476AE80066A56C /* pl_ing_meetupTests.swift */,
+				B25C7DA423476AE80066A56C /* pl_ing_codeeuropeTests.swift */,
 				B25C7DA623476AE80066A56C /* Info.plist */,
 			);
-			path = pl.ing.meetupTests;
+			path = pl.ing.codeeuropeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Łukasz Beksa";
 				TargetAttributes = {
 					B25C7D8923476AE20066A56C = {
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B25C7DA523476AE80066A56C /* pl_ing_meetupTests.swift in Sources */,
+				B25C7DA523476AE80066A56C /* pl_ing_codeeuropeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -354,6 +355,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -388,12 +390,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9U3MYST7P;
-				INFOPLIST_FILE = pl.ing.meetup/Info.plist;
+				INFOPLIST_FILE = pl.ing.codeeurope/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-meetup";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-codeeurope";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,12 +408,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9U3MYST7P;
-				INFOPLIST_FILE = pl.ing.meetup/Info.plist;
+				INFOPLIST_FILE = pl.ing.codeeurope/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-meetup";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-codeeurope";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,14 +427,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9U3MYST7P;
-				INFOPLIST_FILE = pl.ing.meetupTests/Info.plist;
+				INFOPLIST_FILE = pl.ing.codeeuropeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-meetupTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-codeeuropeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +449,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9U3MYST7P;
-				INFOPLIST_FILE = pl.ing.meetupTests/Info.plist;
+				INFOPLIST_FILE = pl.ing.codeeuropeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-meetupTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ing.pl-ing-codeeuropeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

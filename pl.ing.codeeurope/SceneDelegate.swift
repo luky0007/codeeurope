@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  pl.ing.meetup
+//  pl.ing.codeeurope
 //
 //  Created by Łukasz Beksa on 04/10/2022.
 //  Copyright © 2022 Łukasz Beksa. All rights reserved.
