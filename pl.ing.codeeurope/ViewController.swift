@@ -21,16 +21,23 @@ class ViewController: UIViewController {
         userContentController.add(self, name: "test")
         userContentController.add(self, name: "share")
         userContentController.add(self, name: "openContacts")
-        userContentController.add(self, name: "login")
+        userContentController.add(self, name: "runBiometry")
         
-        let scriptSource = "document.body.style.backgroundColor = 'pink';"
+        let scriptSource =
+        """
+            document.body.style.backgroundColor = 'pink';
+            window.onclick = function () {
+                document.body.style.backgroundColor = 'orange';
+            }
+        """;
+
         let script = WKUserScript(source: scriptSource, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         userContentController.addUserScript(script)
 
         config.userContentController = userContentController
         
         self.webView = WKWebView(frame: self.view.bounds, configuration: config)
-        let testurl = "https://fc2b1fc6-9605-42c2-a8bb-0727eccf0e63.htmlpasta.com/"
+        let testurl = "http://127.0.0.1:8000"
         //let testurl = "https://http.cat"
         if let url = URL(string: testurl){
             self.webView.load(URLRequest(url: url))
@@ -65,7 +72,7 @@ extension ViewController: WKScriptMessageHandler, CNContactPickerDelegate {
         if message.name == "openContacts" {
             openContacts()
         }
-        if message.name == "login" {
+        if message.name == "runBiometry" {
             authenticateUser()
         }
     }
@@ -111,17 +118,17 @@ extension ViewController: WKScriptMessageHandler, CNContactPickerDelegate {
                 DispatchQueue.main.async {
                     if success {
                         print("evaluate javascript ... :)")
-                        let str = String(format: "evalFunc('%@')", "TOUCH_ID_OK") //user it's not auth, it's only sample of use
+                        let str = String(format: "evalFunc('%@')", "BIOMETRY_OK") //user it's not auth, it's only sample of use
                         self.evaluateJavascript(str)
                     } else {
-                        let ac = UIAlertController(title: "Authentication failed", message: "Sorry!", preferredStyle: .alert)
+                        let ac = UIAlertController(title: "Biometry failed", message: "Sorry!", preferredStyle: .alert)
                         ac.addAction(UIAlertAction(title: "OK", style: .default))
                         self.present(ac, animated: true)
                     }
                 }
             }
         } else {
-            let ac = UIAlertController(title: "Touch ID not available", message: "Your device is not configured for Touch ID.", preferredStyle: .alert)
+            let ac = UIAlertController(title: "Biometry not available", message: "Your device is not configured.", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "OK", style: .default))
             present(ac, animated: true)
         }

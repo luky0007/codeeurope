@@ -16,7 +16,7 @@
 		B25C7DA523476AE80066A56C /* pl_ing_codeeuropeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C7DA423476AE80066A56C /* pl_ing_codeeuropeTests.swift */; };
 		B2AFF97F23478AA8005D2DA1 /* testjavascript.js in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF97E23478AA8005D2DA1 /* testjavascript.js */; };
 		B2AFF981234906E8005D2DA1 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF980234906E8005D2DA1 /* test.html */; };
-		B2AFF983234907B6005D2DA1 /* loginForm.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF982234907B6005D2DA1 /* loginForm.html */; };
+		B2AFF983234907B6005D2DA1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF982234907B6005D2DA1 /* index.html */; };
 		B2AFF98523490F1F005D2DA1 /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98423490F1F005D2DA1 /* share.html */; };
 		B2AFF98B23491616005D2DA1 /* contacts.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98A23491616005D2DA1 /* contacts.html */; };
 		B2AFF98F23492101005D2DA1 /* evaluate.html in Resources */ = {isa = PBXBuildFile; fileRef = B2AFF98E23492101005D2DA1 /* evaluate.html */; };
@@ -46,7 +46,7 @@
 		B25C7DA623476AE80066A56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AFF97E23478AA8005D2DA1 /* testjavascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = testjavascript.js; sourceTree = "<group>"; };
 		B2AFF980234906E8005D2DA1 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
-		B2AFF982234907B6005D2DA1 /* loginForm.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = loginForm.html; sourceTree = "<group>"; };
+		B2AFF982234907B6005D2DA1 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		B2AFF98423490F1F005D2DA1 /* share.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
 		B2AFF98A23491616005D2DA1 /* contacts.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contacts.html; sourceTree = "<group>"; };
 		B2AFF98E23492101005D2DA1 /* evaluate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = evaluate.html; sourceTree = "<group>"; };
@@ -70,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B47CA12837AA3300FFFCA2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2AFF97E23478AA8005D2DA1 /* testjavascript.js */,
+				B2AFF980234906E8005D2DA1 /* test.html */,
+				B2AFF982234907B6005D2DA1 /* index.html */,
+				B2AFF98423490F1F005D2DA1 /* share.html */,
+				B2AFF98A23491616005D2DA1 /* contacts.html */,
+				B2AFF98E23492101005D2DA1 /* evaluate.html */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		B25C7D8123476AE20066A56C = {
 			isa = PBXGroup;
 			children = (
@@ -91,19 +104,14 @@
 		B25C7D8C23476AE20066A56C /* pl.ing.codeeurope */ = {
 			isa = PBXGroup;
 			children = (
+				37B47CA12837AA3300FFFCA2 /* resources */,
 				B25C7D8D23476AE20066A56C /* AppDelegate.swift */,
 				B25C7D8F23476AE20066A56C /* SceneDelegate.swift */,
 				B25C7D9123476AE20066A56C /* ViewController.swift */,
-				B2AFF980234906E8005D2DA1 /* test.html */,
-				B2AFF982234907B6005D2DA1 /* loginForm.html */,
-				B2AFF98423490F1F005D2DA1 /* share.html */,
-				B2AFF97E23478AA8005D2DA1 /* testjavascript.js */,
 				B25C7D9323476AE20066A56C /* Main.storyboard */,
 				B25C7D9623476AE80066A56C /* Assets.xcassets */,
 				B25C7D9823476AE80066A56C /* LaunchScreen.storyboard */,
 				B25C7D9B23476AE80066A56C /* Info.plist */,
-				B2AFF98A23491616005D2DA1 /* contacts.html */,
-				B2AFF98E23492101005D2DA1 /* evaluate.html */,
 			);
 			path = pl.ing.codeeurope;
 			sourceTree = "<group>";
@@ -202,7 +210,7 @@
 				B2AFF97F23478AA8005D2DA1 /* testjavascript.js in Resources */,
 				B25C7D9723476AE80066A56C /* Assets.xcassets in Resources */,
 				B2AFF981234906E8005D2DA1 /* test.html in Resources */,
-				B2AFF983234907B6005D2DA1 /* loginForm.html in Resources */,
+				B2AFF983234907B6005D2DA1 /* index.html in Resources */,
 				B2AFF98F23492101005D2DA1 /* evaluate.html in Resources */,
 				B25C7D9523476AE20066A56C /* Main.storyboard in Resources */,
 				B2AFF98523490F1F005D2DA1 /* share.html in Resources */,
