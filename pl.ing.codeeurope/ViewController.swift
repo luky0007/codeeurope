@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         let scriptSource =
         """
-            document.body.style.backgroundColor = 'pink';
+            document.body.style.backgroundColor = 'white';
             window.onclick = function () {
                 document.body.style.backgroundColor = 'orange';
             }
@@ -37,8 +37,8 @@ class ViewController: UIViewController {
         config.userContentController = userContentController
         
         self.webView = WKWebView(frame: self.view.bounds, configuration: config)
-        let testurl = "http://127.0.0.1:8000"
-        //let testurl = "https://http.cat"
+        //let testurl = "http://127.0.0.1:8000"
+        let testurl = "https://http.cat"
         if let url = URL(string: testurl){
             self.webView.load(URLRequest(url: url))
         }
